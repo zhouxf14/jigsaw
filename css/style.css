@@ -68,24 +68,14 @@
 }
 
 .main-page {
-	padding-top: 64px;
-}
-
-.main-page div {
-	height: 700px;
-	text-align: center;
-	/*z-index: -50;*/
-}
-
-label span {
-	font-family: 'Raleway', sans-serif !important;
-	font-weight: 500 !important;
-	font-size: 10px;
+	padding-top: 70px;
+	padding-left: 210px;
 }
 
 .brand-logo {
 	margin-left: 30px;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Gloria Hallelujah', cursive;
 	font-weight: 500;
 	color: #ffd54f !important;
 }
@@ -99,4 +89,38 @@ nav {
 	/*background-color: #1e88e5 !important;*/
 	background-color: #21acc1 !important;
 	position: fixed;
+	z-index: 100;
+}
+
+.step {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 14px;
+	padding: 20px;
+}
+
+.button {
+	cursor: pointer;
+}
+
+#learn .button {
+	padding: 10px 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#learn .button:hover {
+	font-family: 'Raleway', sans-serif;
+	color: #21acc1;
+	border: 1px solid #21acc1;
+	border-radius: 30px;
+}
+
+#expert1 {
+	display: none;
+}
+
+#expert2 {
+	display: none;
 }
