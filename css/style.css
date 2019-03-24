@@ -124,3 +124,11 @@ nav {
 #expert2 {
 	display: none;
 }
+
+.jigpart {
+	padding-bottom: 70px;
+}
+
+#learn .quiz {
+	display: none;
+}

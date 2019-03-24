@@ -13,4 +13,8 @@ $(document).ready(function(){
 		$('#select').hide();
 		$('#expert2').show();
 	});
+	$("#expert1-quiz").click(function() {
+		$('#expert1 .quiz').show();
+		$(this).hide();
+	});
 });
