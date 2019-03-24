@@ -132,3 +132,9 @@ nav {
 #learn .quiz {
 	display: none;
 }
+
+.quiz {
+	padding-top: 40px;
+	width: 60%;
+	margin: auto;
+}

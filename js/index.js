@@ -3,6 +3,9 @@ $(document).ready(function(){
     	scrollOffset: 70
     });
 	$('.tabs').tabs();
+	$('select').formSelect();
+
+
 	$("#e1").click(function() {
 		$('#intro').hide();
 		$('#select').hide();
