@@ -46,18 +46,49 @@
             </div>
             <div>
               <div class="quiz">
-<!--                 <span>test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question</span> -->
                 <div class="input-field col s12" id="ex1q1">
                   <div><label>Question 1</label></div>
                   <span>test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question</span>
-                  <select>
-                    <option value="" disabled selected>Choose your option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                  </select>
+                  <form action="#">
+                    <p id="test">
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>Red</span>
+                      </label>
+                    </p>
+                    <p id="test2">
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>Yellow</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="radio"  />
+                        <span>Green</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>Brown</span>
+                      </label>
+                    </p>
+                  </form>
+                  <a class="waves-effect waves-light btn modal-trigger right">Modal</a>
                 </div>
               </div>
+
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Modal Header</h4>
+                  <p>red</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
             </div>
           </div>
           <div id="expert2">
@@ -74,6 +105,28 @@
       </div>
       <div id="teach" class="scrollspy jigpart">
         <img src="image/collaborate.jpg">
+        <div class="container">
+          <form action="#">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span>Red</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span>Yellow</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input id="indeterminate-checkbox" type="checkbox" />
+                <span>Indeterminate Style</span>
+              </label>
+            </p>
+          </form>
+        </div>
       </div>
       <div id="quiz" class="scrollspy jigpart">
         <img src="image/quiz.jpg">

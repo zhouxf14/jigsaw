@@ -1,10 +1,11 @@
 $(document).ready(function(){
+
     $('.scrollspy').scrollSpy({
     	scrollOffset: 70
     });
 	$('.tabs').tabs();
-	$('select').formSelect();
-
+	$('.modal').modal();
+	// $('select').formSelect();
 
 	$("#e1").click(function() {
 		$('#intro').hide();
@@ -20,4 +21,8 @@ $(document).ready(function(){
 		$('#expert1 .quiz').show();
 		$(this).hide();
 	});
+	$('#test').click(function() {
+		$("#ex1q1 .btn").attr('href','#modal1');
+	});
+
 });
