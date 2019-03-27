@@ -40,59 +40,93 @@
             <img src="image/general.jpg" width="90%">
           </div>
           <div id="expert1">
-            <img src="image/hermione.jpg">
+            <!-- <img src="image/hermione.jpg"> -->
+            <div class="center instruction"><iframe width="728" height="410" src="https://www.youtube.com/embed/d3Gjjrkwxgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <div class="center">
-              <span id="expert1-quiz" class="button">Am I an expert now?</span>
+              <span id="expert1-quiz-btn" class="button">Am I an expert now?</span>
             </div>
-            <div>
+            <div id="expert1-quiz">
               <div class="quiz">
                 <div class="input-field col s12" id="ex1q1">
                   <div><label>Question 1</label></div>
-                  <span>test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question test question</span>
+                  <span>Which has the longest wavelength?</span>
                   <form action="#">
-                    <p id="test">
+                    <p>
                       <label>
                         <input name="group1" type="radio" />
-                        <span>Red</span>
+                        <span>UVA</span>
                       </label>
                     </p>
-                    <p id="test2">
+                    <p>
                       <label>
                         <input name="group1" type="radio" />
-                        <span>Yellow</span>
+                        <span>UVB</span>
                       </label>
                     </p>
                     <p>
                       <label>
                         <input name="group1" type="radio"  />
-                        <span>Green</span>
+                        <span>UVC</span>
+                      </label>
+                    </p>
+                  </form>
+                  <a class="waves-effect waves-light fb-btn modal-trigger right" href="#modal0">Submit</a>
+                </div>
+
+                <div class="input-field col s12" id="ex1q2">
+                  <div><label>Question 2</label></div>
+                  <span>Which reaches our epidermis layer?</span>
+                  <form action="#">
+                    <p id="test">
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>UVA</span>
+                      </label>
+                    </p>
+                    <p id="test2">
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>UVB</span>
                       </label>
                     </p>
                     <p>
                       <label>
-                        <input name="group1" type="radio" />
-                        <span>Brown</span>
+                        <input name="group1" type="radio"  />
+                        <span>UVC</span>
                       </label>
                     </p>
                   </form>
-                  <a class="waves-effect waves-light btn modal-trigger right">Modal</a>
+                  <a class="waves-effect waves-light fb-btn modal-trigger right" href="#modal0">Submit</a>
+                </div>
+              </div>
+
+              <div id="modal0" class="modal">
+                <div class="modal-content">
+                  <h4>Pick your own answer first.</h4>
+                  <!-- <p>UVA has the longest wavelength and UVC has the shortest wavelength.</p> -->
+                </div>
+                <div class="modal-footer">
+                  <a class="modal-close waves-effect waves-green btn-flat">OK</a>
                 </div>
               </div>
 
               <div id="modal1" class="modal">
                 <div class="modal-content">
-                  <h4>Modal Header</h4>
-                  <p>red</p>
+                  <h4>Your answer is correct!</h4>
+                  <p>UVA has the longest wavelength and UVC has the shortest wavelength.</p>
                 </div>
                 <div class="modal-footer">
-                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                  <a href="#ex1q2" class="modal-close waves-effect waves-green btn-flat">Next Question</a>
                 </div>
               </div>
 
             </div>
           </div>
           <div id="expert2">
-            <img src="image/hp.jpg">
+            <!-- <img src="image/hp.jpg"> -->
+            <div class="instruction center">
+              <iframe width="728" height="410" src="https://www.youtube.com/embed/6dhLPuG24cE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div id="select">
