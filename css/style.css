@@ -1,5 +1,17 @@
+#intro {
+	z-index: 1000;
+	display: none;
+}
+
+/*#select {
+	height: calc(100% + 60px);
+    overflow-y: auto;
+    will-change: transform;
+    backface-visibility: hidden;
+}*/
+
 #slide-out {
-    width: 200px;
+    width: 190px;
     margin: 0px;
     /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);*/
     height: calc(100% + 60px);
@@ -7,7 +19,7 @@
     left: 10px;
     top: 90px;
     margin: 0;
-    height: calc(100% + 60px);
+    /*height: calc(100% + 60px);*/
     padding-bottom: 60px;
     background-color: transparent;
     z-index: 0;
@@ -102,7 +114,11 @@ nav {
 	cursor: pointer;
 }
 
-#learn .button {
+#learn {
+	padding-top: 10px;
+}
+
+.button {
 	padding: 10px 10px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -110,7 +126,7 @@ nav {
 	font-family: 'Raleway', sans-serif;
 }
 
-#learn .button:hover {
+.button:hover {
 	font-family: 'Raleway', sans-serif;
 	color: #21acc1;
 	border: 1px solid #21acc1;
@@ -119,6 +135,7 @@ nav {
 
 #expert1 {
 	display: none;
+	padding-bottom: 50px;
 }
 
 #expert2 {
@@ -126,7 +143,7 @@ nav {
 }
 
 .jigpart {
-	padding-bottom: 70px;
+	/*padding-bottom: 70px;*/
 }
 
 #learn .quiz {
@@ -140,7 +157,7 @@ nav {
 }
 
 .instruction {
-	padding-top: 70px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 }
 
@@ -154,5 +171,71 @@ nav {
 	padding: 5px 20px;
 }
 .quiz .input-field {
-	padding-top: 80px;
+	margin-top: 80px;
+	border-top: 1px solid #9e9e9e;
+}
+
+#learn .title {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	/*padding-left: 70px;*/
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#learn .subtitle {
+	padding-top: 20px;
+	/*padding-left: 70px;*/
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 14px;
+}
+
+#teach .title {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	/*padding-left: 70px;*/
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#teach .subtitle {
+	padding-top: 20px;
+	/*padding-left: 70px;*/
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 14px;
+}
+
+#teach form {
+	padding-bottom: 70px;
+}
+
+form label {
+	color: #000 !important;
+}
+
+.quiz .check-icon {
+	display: none;
+	color: #26a69a;
+	margin-right: 20px;
+}
+
+#teach {
+	display: none;
+	padding-top: 40px;
+}
+
+#teach .container {
+	border-top: 1px solid #9e9e9e;
+}
+
+#expert1-teach {
+	display: none;
+}
+
+#final-quiz {
+	display: none;
+}
+
+#expert1-teach img {
+	margin-top: 30px;
 }
