@@ -339,7 +339,7 @@ $(document).ready(function(){
 		$("#ex2q7 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q8 p:nth-child(1)').click(function(e) {
+	$('#ex2q8 p:nth-child(2)').click(function(e) {
 		if ($(e.target).is("input"))
 			return;
 		$("#ex2q8 .fb-btn").attr('href','#2modal8-1');
