@@ -38,9 +38,12 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('#ex1q1 p:nth-child(1)').click(function() {
+	$('#ex1q1 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q1 .fb-btn").attr('href','#modal1-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal1-1 .btn-flat').attr('href', '#quiz-finish');
@@ -62,9 +65,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q2 p:nth-child(2)').click(function() {
+	$('#ex1q2 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q2 .fb-btn").attr('href','#modal2-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal2-1 .btn-flat').attr('href', '#quiz-finish');
@@ -86,9 +92,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q3 p:nth-child(1)').click(function() {
+	$('#ex1q3 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q3 .fb-btn").attr('href','#modal3-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal3-1 .btn-flat').attr('href', '#quiz-finish');
@@ -110,9 +119,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q4 p:nth-child(2)').click(function() {
+	$('#ex1q4 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q4 .fb-btn").attr('href','#modal4-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal4-1 .btn-flat').attr('href', '#quiz-finish');
@@ -130,9 +142,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q5 p:nth-child(2)').click(function() {
+	$('#ex1q5 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q5 .fb-btn").attr('href','#modal5-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal5-1 .btn-flat').attr('href', '#quiz-finish');
@@ -150,9 +165,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q6 p:nth-child(2)').click(function() {
+	$('#ex1q6 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q6 .fb-btn").attr('href','#modal6-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal6-1 .btn-flat').attr('href', '#quiz-finish');
@@ -174,9 +192,12 @@ $(document).ready(function(){
 		
 	});
 
-	$('#ex1q7 p:nth-child(1)').click(function() {
+	$('#ex1q7 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex1q7 .fb-btn").attr('href','#modal7-1');
 		expert1 = expert1 + 1;
+		// console.log(expert1);
 		if (expert1 >= 7) {
 			// console.log($('#modal7-1 .btn-flat').attr('href'));
 			$('#modal7-1 .btn-flat').attr('href', '#quiz-finish');
@@ -212,7 +233,9 @@ $(document).ready(function(){
 		$("#ex2q1 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q2 p:nth-child(2)').click(function() {
+	$('#ex2q2 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q2 .fb-btn").attr('href','#2modal2-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -226,7 +249,9 @@ $(document).ready(function(){
 		$("#ex2q2 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q3 p:nth-child(2)').click(function() {
+	$('#ex2q3 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q3 .fb-btn").attr('href','#2modal3-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -240,7 +265,9 @@ $(document).ready(function(){
 		$("#ex2q3 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q4 p:nth-child(2)').click(function() {
+	$('#ex2q4 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q4 .fb-btn").attr('href','#2modal4-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -258,7 +285,9 @@ $(document).ready(function(){
 		$("#ex2q4 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q5 p:nth-child(1)').click(function() {
+	$('#ex2q5 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q5 .fb-btn").attr('href','#2modal5-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -276,7 +305,9 @@ $(document).ready(function(){
 		$("#ex2q5 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q6 p:nth-child(2)').click(function() {
+	$('#ex2q6 p:nth-child(2)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q6 .fb-btn").attr('href','#2modal6-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -290,7 +321,9 @@ $(document).ready(function(){
 		$("#ex2q6 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q7 p:nth-child(1)').click(function() {
+	$('#ex2q7 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q7 .fb-btn").attr('href','#2modal7-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -304,7 +337,9 @@ $(document).ready(function(){
 		$("#ex2q7 .fb-btn").attr('href','#wrong-fb2');
 	});
 
-	$('#ex2q8 p:nth-child(1)').click(function() {
+	$('#ex2q8 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q8 .fb-btn").attr('href','#2modal8-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
