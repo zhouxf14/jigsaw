@@ -219,7 +219,9 @@ $(document).ready(function(){
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
-	$('#ex2q1 p:nth-child(1)').click(function() {
+	$('#ex2q1 p:nth-child(1)').click(function(e) {
+		if ($(e.target).is("input"))
+			return;
 		$("#ex2q1 .fb-btn").attr('href','#2modal1-1');
 		expert2 = expert2 + 1;
 		if (expert2 >= 8) {
@@ -404,12 +406,14 @@ $(document).ready(function(){
 	$('#quiz-finish .btn-flat').click(function() {
 		$("#teach").css("height",h);
 		$("#teach").show();
+		$("#expert2-teach").hide();
 		$('#expert1-teach').show();
 	});
 
 	$('#2quiz-finish .btn-flat').click(function() {
 		$("#teach").css("height",h);
 		$("#teach").show();
+		$("#expert1-teach").hide();
 		$('#expert2-teach').show();
 	});
 
