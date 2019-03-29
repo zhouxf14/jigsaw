@@ -51,6 +51,12 @@
 	background-image: url("../image/jigsaw1.png");
 }
 
+#j02 {
+	background-image: url("../image/j02.png");
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+}
+
 #j2 {
 	background-image: url("../image/j2.png");
 	background-size: 70px 70px;
@@ -63,6 +69,12 @@
 
 #j2:hover {
 	background-image: url("../image/jigsaw2.png");
+}
+
+#j03 {
+	background-image: url("../image/j03.png");
+	background-size: 90px 70px;
+	background-repeat: no-repeat;
 }
 
 #j3 {
@@ -105,7 +117,9 @@ nav {
 }
 
 .step {
-	font-family: 'Luckiest Guy', cursive;
+	/*font-family: 'Luckiest Guy', cursive;*/
+	/*font-family: 'PT Serif', serif;*/
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	padding: 20px;
 }
@@ -159,7 +173,7 @@ nav {
 
 .instruction {
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 .fb-btn {
@@ -171,6 +185,15 @@ nav {
 	border-radius: 30px;
 	padding: 5px 20px;
 }
+
+#ex1q1 {
+	margin-top: 20px !important;
+}
+
+#ex2q1 {
+	margin-top: 20px !important;
+}
+
 .quiz .input-field {
 	margin-top: 80px;
 	border-top: 1px solid #9e9e9e;
@@ -185,9 +208,11 @@ nav {
 }
 
 #learn .subtitle {
-	padding-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 	/*padding-left: 70px;*/
-	font-family: 'Luckiest Guy', cursive;
+	/*font-family: 'Luckiest Guy', cursive;*/
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 }
 
@@ -202,7 +227,8 @@ nav {
 #teach .subtitle {
 	padding-top: 20px;
 	/*padding-left: 70px;*/
-	font-family: 'Luckiest Guy', cursive;
+	/*font-family: 'Luckiest Guy', cursive;*/
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 }
 

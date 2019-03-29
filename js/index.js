@@ -487,6 +487,7 @@ $(document).ready(function(){
 	});
 
 	$('#quiz-finish .btn-flat').click(function() {
+		$("#j02").attr("id", 'j2');
 		$("#teach").css("height",h);
 		$("#teach").show();
 		$("#expert2-teach").hide();
@@ -494,22 +495,21 @@ $(document).ready(function(){
 	});
 
 	$('#2quiz-finish .btn-flat').click(function() {
+		$("#j02").attr("id", 'j2');
 		$("#teach").css("height",h);
 		$("#teach").show();
 		$("#expert1-teach").hide();
 		$('#expert2-teach').show();
 	});
 
-	$("#final-quiz-btn").click(function() {
-		$("#final-quiz").show();
-	});
-
 	$("#2final-quiz-btn").click(function() {
+		$("#j03").attr('id', 'j3');
 		$("#final-quiz").css("height",h);
 		$("#final-quiz").show();
 	});
 
 	$("#final-quiz-btn").click(function() {
+		$("#j03").attr('id', 'j3');
 		$("#final-quiz").css("height",h);
 		$("#final-quiz").show();
 	});
