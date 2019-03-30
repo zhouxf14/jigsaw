@@ -10,17 +10,25 @@ $(document).ready(function(){
     });
 	$('.tabs').tabs();
 	$('.modal').modal();
+	$('.tooltipped').tooltip();
 	// $('select').formSelect();
+
+	$(".lo .button").click(function() {
+		$('.lo').hide();
+		$('.instruction iframe').show();
+	})
 
 	$("#e1").click(function() {
 		$('#intro').hide();
 		$('#select').hide();
 		$('#expert1').show();
+		$('.i1').show();
 	});
 	$("#e2").click(function() {
 		$('#intro').hide();
 		$('#select').hide();
 		$('#expert2').show();
+		$('.i2').show();
 	});
 	$("#expert1-quiz-btn").click(function() {
 		$('#expert1 .quiz').show();
@@ -67,7 +75,7 @@ $(document).ready(function(){
 	$('#modal1-1 .btn-flat').click(function() {
 		$('#ex1q1 .fb-btn').hide();
 		$('#ex1q1 .check-icon').show();
-		
+		$('#ex1q1 .kc').show();		
 	});
 
 	$('#ex1q2 p:nth-child(2)').click(function(e) {
@@ -99,6 +107,7 @@ $(document).ready(function(){
 	$('#modal2-1 .btn-flat').click(function() {
 		$('#ex1q2 .fb-btn').hide();
 		$('#ex1q2 .check-icon').show();
+		$('#ex1q2 .kc').show();	
 		
 	});
 
@@ -131,7 +140,7 @@ $(document).ready(function(){
 	$('#modal3-1 .btn-flat').click(function() {
 		$('#ex1q3 .fb-btn').hide();
 		$('#ex1q3 .check-icon').show();
-		
+		$('#ex1q3 .kc').show();	
 	});
 
 	$('#ex1q4 p:nth-child(2)').click(function(e) {
@@ -159,7 +168,7 @@ $(document).ready(function(){
 	$('#modal4-1 .btn-flat').click(function() {
 		$('#ex1q4 .fb-btn').hide();
 		$('#ex1q4 .check-icon').show();
-		
+		$('#ex1q4 .kc').show();	
 	});
 
 	$('#ex1q5 p:nth-child(2)').click(function(e) {
@@ -187,7 +196,7 @@ $(document).ready(function(){
 	$('#modal5-1 .btn-flat').click(function() {
 		$('#ex1q5 .fb-btn').hide();
 		$('#ex1q5 .check-icon').show();
-		
+		$('#ex1q5 .kc').show();	
 	});
 
 	$('#ex1q6 p:nth-child(2)').click(function(e) {
@@ -219,7 +228,7 @@ $(document).ready(function(){
 	$('#modal6-1 .btn-flat').click(function() {
 		$('#ex1q6 .fb-btn').hide();
 		$('#ex1q6 .check-icon').show();
-		
+		$('#ex1q6 .kc').show();	
 	});
 
 	$('#ex1q7 p:nth-child(1)').click(function(e) {
@@ -251,6 +260,7 @@ $(document).ready(function(){
 	$('#modal7-1 .btn-flat').click(function() {
 		$('#ex1q7 .fb-btn').hide();
 		$('#ex1q7 .check-icon').show();
+		$('#ex1q7 .kc').show();	
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
@@ -441,48 +451,56 @@ $(document).ready(function(){
 	$('#2modal1-1 .btn-flat').click(function() {
 		$('#ex2q1 .fb-btn').hide();
 		$('#ex2q1 .check-icon').show();
+		$('#ex2q1 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal2-1 .btn-flat').click(function() {
 		$('#ex2q2 .fb-btn').hide();
 		$('#ex2q2 .check-icon').show();
+		$('#ex2q2 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal3-1 .btn-flat').click(function() {
 		$('#ex2q3 .fb-btn').hide();
 		$('#ex2q3 .check-icon').show();
+		$('#ex2q3 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal4-1 .btn-flat').click(function() {
 		$('#ex2q4 .fb-btn').hide();
 		$('#ex2q4 .check-icon').show();
+		$('#ex2q4 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal5-1 .btn-flat').click(function() {
 		$('#ex2q5 .fb-btn').hide();
 		$('#ex2q5 .check-icon').show();
+		$('#ex2q5 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal6-1 .btn-flat').click(function() {
 		$('#ex2q6 .fb-btn').hide();
 		$('#ex2q6 .check-icon').show();
+		$('#ex2q6 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal7-1 .btn-flat').click(function() {
 		$('#ex2q7 .fb-btn').hide();
 		$('#ex2q7 .check-icon').show();
+		$('#ex2q7 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 
 	$('#2modal8-1 .btn-flat').click(function() {
 		$('#ex2q8 .fb-btn').hide();
 		$('#ex2q8 .check-icon').show();
+		$('#ex2q8 .kc').show();
 		// console.log($('#modal7-1 .btn-flat').attr('href'));
 	});
 

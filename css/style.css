@@ -37,6 +37,16 @@
 	font-size: 20px;
 }
 
+.i1 {
+	display: none;
+	margin-top: 25px;
+}
+
+.i2 {
+	display: none;
+	margin-top: 25px;
+}
+
 #j1 {
 	background-image: url("../image/j1.png");
 	background-size: 70px 70px;
@@ -195,7 +205,7 @@ nav {
 }
 
 .quiz .input-field {
-	margin-top: 80px;
+	margin-top: 40px;
 	border-top: 1px solid #9e9e9e;
 }
 
@@ -273,4 +283,48 @@ form label {
 
 #final-quiz iframe {
 	margin-top: 30px;
+}
+
+.lo {
+	width: 728px;
+	height: 410px;
+	margin: auto;
+	background-size: 720px 410px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#expert1 .lo {
+	background-image: url('../image/lo1.png');
+	/*z-index: 20;*/
+}
+
+#expert2 .lo {
+	background-image: url('../image/lo2.png');
+	/*z-index: 20;*/
+}
+
+.lo .button {
+	position: absolute;
+	bottom: 70px;
+	left: 180px;
+/*	border: 1px solid #21acc1;
+	border-radius: 30px;*/
+}
+
+.instruction iframe {
+	display: none;
+	/*z-index: 5;*/
+}
+
+.overall {
+	/*background-image: url('../image/overall.png');*/
+	height: 410px;
+	/*background-size: 720px 410px;*/
+	background-repeat: no-repeat;
+}
+
+.kc {
+	display: none;
+	font-size: 12px;
 }
